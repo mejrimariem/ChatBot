@@ -1,0 +1,83 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Salut",
+          "Hey",
+          "Comment ça va",
+          "Y a-t-il quelqu'un ?",
+          "Bonjour",
+          "Bonne journée"
+        ],
+        "responses": [
+         
+          "Bonjour, En tant qu'agent de Talan Bank, je suis la pour vous fournir des informations sur nos services et vous accompagner dans votre demande de credit en ligne.  Comment puis-je vous aider aujourd'hui ?"
+          
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Au revoir", "À plus tard", "Au revoir"],
+        "responses": [
+          "À plus tard, merci de votre visite",
+          "Bonne journée",
+          "Au revoir ! Revenez bientôt."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Merci", "Merci beaucoup", "C'est utile", "Merci beaucoup !"],
+        "responses": ["Ravi de pouvoir aider !", "À tout moment !", "Avec plaisir"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Quels articles avez-vous ?",
+          "Quels types d'articles y a-t-il ?",
+          "Qu'est-ce que vous vendez ?"
+        ],
+        "responses": [
+          "Nous vendons du café et du thé",
+          "Nous avons du café et du thé"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Acceptez-vous les cartes de crédit ?",
+          "Acceptez-vous Mastercard ?",
+          "Puis-je payer avec Paypal ?",
+          "Acceptez-vous uniquement les espèces ?"
+        ],
+        "responses": [
+          "Nous acceptons VISA, Mastercard et Paypal",
+          "Nous acceptons la plupart des principales cartes de crédit et Paypal"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "Combien de temps prend la livraison ?",
+          "Combien de temps prend l'expédition ?",
+          "Quand est-ce que je reçois ma livraison ?"
+        ],
+        "responses": [
+          "La livraison prend 2 à 4 jours",
+          "L'expédition prend 2 à 4 jours"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Raconte-moi une blague !",
+          "Dis-moi quelque chose de drôle !",
+          "Connais-tu une blague ?"
+        ],
+        "responses": [
+          "Pourquoi le hipster s'est-il brûlé la bouche ? Il a bu le café avant qu'il ne soit cool.",
+          "Que dit le bison quand son fils part à l'université ? Bison."
+        ]
+      }
+    ]
+  }
